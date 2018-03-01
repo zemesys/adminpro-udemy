@@ -38,7 +38,7 @@ import { IncrementadorComponent } from '../components/incrementador/incrementado
         SharedModule,
         PAGES_ROUTES,
         FormsModule,
-        ChartsModule,
+        ChartsModule
 
     ]
 
