@@ -14,10 +14,11 @@ import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.co
 import { PagesComponent } from './pages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
-import { Graficas1Component } from './graficas1/graficas1.component';
+import { AccoutSettingsComponent } from './accout-settings/accout-settings.component';
 
 // temporal
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
+import { Graficas1Component } from './graficas1/graficas1.component';
 
 @NgModule ({
     declarations: [
@@ -26,7 +27,8 @@ import { IncrementadorComponent } from '../components/incrementador/incrementado
         ProgressComponent,
         Graficas1Component,
         IncrementadorComponent,
-        GraficoDonaComponent
+        GraficoDonaComponent,
+        AccoutSettingsComponent
     ],
     exports: [
         DashboardComponent,
