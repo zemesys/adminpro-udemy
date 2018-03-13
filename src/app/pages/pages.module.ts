@@ -19,6 +19,8 @@ import { AccoutSettingsComponent } from './accout-settings/accout-settings.compo
 // temporal
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { Graficas1Component } from './graficas1/graficas1.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule ({
     declarations: [
@@ -28,7 +30,9 @@ import { Graficas1Component } from './graficas1/graficas1.component';
         Graficas1Component,
         IncrementadorComponent,
         GraficoDonaComponent,
-        AccoutSettingsComponent
+        AccoutSettingsComponent,
+        PromesasComponent,
+        RxjsComponent
     ],
     exports: [
         DashboardComponent,
